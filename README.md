@@ -31,10 +31,6 @@
   <a href="https://www.tableau.com/" target="_blank" rel="noreferrer">
     <img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Tableau_Logo.png" alt="Tableau" width="40" height="40"/>
   </a>
-  <!-- Looker Studio (formerly Data Studio) -->
-  <a href="https://lookerstudio.google.com/" target="_blank" rel="noreferrer">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/3/3e/Google_Data_Studio_logo.png" alt="Looker Studio" width="40" height="40"/>
-  </a>
   <!-- PyTorch -->
   <a href="https://pytorch.org/" target="_blank" rel="noreferrer">
     <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="40" height="40"/>
