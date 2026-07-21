@@ -2,11 +2,15 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
 
   <meta
     name="description"
-    content="Portfolio of Luis Morales, focused on financial engineering, data science, and quantitative finance."
+    content="Portfolio of Luis Morales, focused on financial engineering, data science, statistical modeling, and quantitative finance."
   >
 
   <title>Luis Morales | Financial Engineering & Data Science</title>
@@ -16,61 +20,151 @@
 
 <body>
   <header class="navbar">
-    <a class="logo" href="#home">LM</a>
+    <a class="logo" href="#home" aria-label="Go to home section">
+      LM
+    </a>
 
-    <nav>
+    <nav aria-label="Main navigation">
       <a href="#about">About</a>
+      <a href="#education">Education</a>
       <a href="#projects">Projects</a>
       <a href="#skills">Skills</a>
+      <a href="#certifications">Courses</a>
       <a href="#contact">Contact</a>
     </nav>
   </header>
 
   <main>
     <section id="home" class="hero">
-      <p class="eyebrow">Financial Engineering · Data Science</p>
+      <div class="hero-content">
+        <div class="hero-text">
+          <p class="eyebrow">
+            Business Intelligence · Financial Engineering · Data Science
+          </p>
 
-      <h1>Luis Ángel Morales</h1>
+          <h1>Luis Ángel Morales</h1>
 
-      <h2>Statistical modeling and quantitative analysis for financial decision-making.</h2>
+          <p class="hero-description">
+            Building data-driven solutions for business management.
+          </p>
 
-      <p class="hero-description">
-        I develop projects that combine financial engineering, statistical
-        analysis, data science, and business interpretation.
-      </p>
+          <div class="hero-buttons">
+            <a class="button primary" href="#projects">
+              View projects
+            </a>
 
-      <div class="hero-buttons">
-        <a class="button primary" href="#projects">View projects</a>
+            <a
+              class="button secondary"
+              href="https://github.com/elluismv"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub
+            </a>
+          </div>
+        </div>
 
-        <a
-          class="button secondary"
-          href="https://github.com/elluismv"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          GitHub
-        </a>
+        <div class="hero-image">
+          <img
+            src="assets/images/profile.jpg"
+            alt="Portrait of Luis Ángel Morales"
+          >
+        </div>
       </div>
     </section>
 
     <section id="about" class="section">
       <p class="section-label">About me</p>
+
       <h2>Combining finance, statistics, and technology</h2>
 
       <p>
-        I am a graduate student with a background in financial engineering
-        and data science. My work focuses on interpretable statistical models,
-        quantitative finance, financial risk, and empirical research.
+        I am a graduate student with a background in Business Intelligence,
+        Financial Engineering, and Data Science. My work focuses on
+        interpretable statistical models, predictive analytics, quantitative
+        finance, financial risk, machine learning, and applied research for
+        business decision-making.
       </p>
+    </section>
+
+    <section id="education" class="section">
+      <p class="section-label">Education</p>
+
+      <h2>Academic Background</h2>
+
+      <div class="education-list">
+        <article class="education-item">
+          <div class="education-header">
+            <div>
+              <h3>Universidad Autónoma de Querétaro (UAQ)</h3>
+
+              <p class="education-degree">
+                Master's Degree in Data Science
+              </p>
+            </div>
+
+            <p class="education-date">
+              Jan 2026 – Present
+            </p>
+          </div>
+
+          <p class="education-location">
+            Querétaro, Mexico
+          </p>
+        </article>
+
+        <article class="education-item">
+          <div class="education-header">
+            <div>
+              <h3>Universidad Nacional Autónoma de México (UNAM)</h3>
+
+              <p class="education-degree">
+                Specialization in Financial Engineering
+              </p>
+            </div>
+
+            <p class="education-date">
+              Jan 2026 – Present
+            </p>
+          </div>
+
+          <p class="education-location">
+            Mexico City, Mexico
+          </p>
+        </article>
+
+        <article class="education-item">
+          <div class="education-header">
+            <div>
+              <h3>Tecnológico de Monterrey (ITESM)</h3>
+
+              <p class="education-degree">
+                Bachelor's Degree in Business Intelligence
+              </p>
+            </div>
+
+            <p class="education-date">
+              Aug 2021 – Jun 2025
+            </p>
+          </div>
+
+          <p class="education-location">
+            Nuevo León, Mexico
+          </p>
+        </article>
+      </div>
     </section>
 
     <section id="projects" class="section">
       <p class="section-label">Selected work</p>
+
       <h2>Projects</h2>
 
       <div class="project-grid">
         <article class="project-card">
-          <p class="project-category">Statistical modeling · R</p>
+          <p class="project-category">
+            Statistical modeling · R
+          </p>
 
           <h3>Bank Customer Churn Prediction</h3>
 
@@ -92,13 +186,16 @@
         </article>
 
         <article class="project-card">
-          <p class="project-category">Quantitative finance · Excel</p>
+          <p class="project-category">
+            Quantitative finance · Excel
+          </p>
 
           <h3>Replicating Fama (1965)</h3>
 
           <p>
-            Empirical analysis of daily, weekly, and monthly financial returns,
-            including normality and independence tests.
+            Empirical analysis of daily, weekly, and monthly financial
+            returns, including normality, independence, and distributional
+            tests.
           </p>
 
           <div class="project-links">
@@ -111,27 +208,106 @@
             </a>
           </div>
         </article>
+
+        <article class="project-card">
+          <p class="project-category">
+            Tourism analytics · R &amp; Python
+          </p>
+
+          <h3>Monterrey Tourism Analytics 2026</h3>
+
+          <p>
+            Data-driven tourism analysis combining exploratory analysis,
+            spatial statistics, hypothesis testing, and time series
+            forecasting to support strategic planning for Monterrey ahead of the 
+            2026 FIFA World Cup.
+          </p>
+
+          <div class="project-links">
+            <a
+              href="https://github.com/elluismv/monterrey-2026-tourism-data-analysis"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View repository →
+            </a>
+          </div>
+        </article>
       </div>
     </section>
 
     <section id="skills" class="section">
       <p class="section-label">Technical profile</p>
+
       <h2>Skills</h2>
 
       <div class="skills">
         <span>R</span>
         <span>Python</span>
-        <span>Excel</span>
         <span>SQL</span>
+        <span>Excel</span>
         <span>Statistical Modeling</span>
-        <span>Quantitative Finance</span>
-        <span>Financial Risk</span>
         <span>Machine Learning</span>
+        <span>Time Series Analysis</span>
+        <span>Spatial Analysis</span>
+        <span>Quantitative Finance</span>
+        <span>Financial Engineering</span>
+        <span>Financial Risk</span>
+        <span>Data Visualization</span>
+      </div>
+    </section>
+
+    <section id="certifications" class="section">
+      <p class="section-label">Professional development</p>
+
+      <h2>Courses &amp; Certifications</h2>
+
+      <div class="education-list">
+        <article class="education-item">
+          <div class="education-header">
+            <div>
+              <h3>Quantitative Methods for Business Management</h3>
+
+              <p class="education-degree">
+                Course
+              </p>
+            </div>
+
+            <p class="education-date">
+              2025
+            </p>
+          </div>
+
+          <p class="education-location">
+            Universidad Nacional Autónoma de México (UNAM)
+          </p>
+        </article>
+
+        <article class="education-item">
+          <div class="education-header">
+            <div>
+              <h3>Mathematics and Statistics</h3>
+
+              <p class="education-degree">
+                Course
+              </p>
+            </div>
+
+            <p class="education-date">
+              2024
+            </p>
+          </div>
+
+          <p class="education-location">
+            Museo Interactivo de Economía (MIDE)
+          </p>
+        </article>
       </div>
     </section>
 
     <section id="contact" class="section contact">
       <p class="section-label">Contact</p>
+
       <h2>Let’s connect</h2>
 
       <p>
